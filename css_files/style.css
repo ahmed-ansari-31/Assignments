@@ -1,0 +1,183 @@
+.top {
+  font-family: Calibri;
+  font-size: 25pt;
+  font-weight: bold;
+  color: rgb(106, 90, 205);
+  text-decoration: underline;
+}
+
+.ttable {
+  font-family: Calibri;
+  font-size: 11pt;
+  border-collapse: collapse;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(106, 91, 205);
+  border: 3px solid rgb(72, 54, 189)
+}
+
+.pborder {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(15, 87, 130);
+  min-width: 42px;
+  max-width: auto;
+  animation-name: wow;
+  animation-duration: 1s;
+}
+
+.pborder:hover {
+  box-shadow: 0px 0px 5px black;
+  animation-name: wo;
+  animation-duration: 0.5s;
+}
+
+@keyframes wow {
+  from {transform: scale(1.15, 1.15);}
+  to {transform: scale(1, 1);}
+}
+@keyframes wo{
+  0% {transform: scale(1 , 1);}
+  50% {transform: scale(1.15 , 1.15);}
+  100% { transform: scale(1 , 1);}
+}
+
+.p-div {
+  padding: 0px 8% 0px 8%;
+}
+
+.table-width {
+  border: 1px solid rgb(15, 87, 130);
+  min-width: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.con {
+  font-size: 15px;
+}
+
+#c {
+  text-align: center;
+}
+
+#no_border {
+  border: 0px;
+}
+
+.thank {
+  text-align: center;
+  color: rgb(0, 128, 0);
+  font-size: 280%;
+  margin: 20px;
+}
+
+.purple1 {
+  text-align: center;
+  color: rgb(75, 0, 130);
+  font-size: 200%;
+  margin: 30px;
+}
+
+.purple2 {
+  color: rgb(75, 0, 130);
+  font-size: 50px;
+  margin: auto;
+  width: fit-content;
+  padding: 0px 10px;
+}
+
+.purple2:hover {
+  border: 2px solid grey;
+}
+
+h4 {
+  text-align: center;
+}
+
+.quali {
+  vertical-align: top;
+}
+
+.red_steric {
+  color: rgb(255, 0, 0);
+}
+
+.w3-bar {
+  padding: 30px 10px 30px 40px;
+  border: 1px;
+  background-image: linear-gradient(to bottom right, rgb(4, 4, 117), rgb(150, 212, 236));
+  color: rgb(255, 255, 255);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.back-button {
+  padding: 10px 20px;
+  margin: 0.34% 2% 0.34% 0.34%;
+  color: rgb(37, 24, 119);
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.back-button:hover {
+  transform: scale(1.03, 1.03);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.back-button:active {
+  background-color: rgb(12, 32, 146);
+  color: white;
+}
+
+.button-index {
+  padding: 10px 20px;
+  color: rgb(37, 24, 119);
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.button-index:hover {
+  transform: scale(1.03, 1.03);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+
+.button-index:active {
+  background-color: rgb(12, 32, 146);
+  color: white;
+}
+
+.form-button {
+  padding: 0.7% 1.4%;
+  border-radius: 5px;
+  border: 1px solid rgb(12, 32, 146);
+}
+
+.form-button:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.profile {
+  font-size: 30px;
+}
+
+.links {
+  padding: 30px 10px 20px 10px;
+}
+
+.move {
+  display: inline-block;
+  margin: 0px 0px 0px 34%;
+}
+
+body {
+  margin: 0px;
+}
