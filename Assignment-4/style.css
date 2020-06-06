@@ -19,7 +19,7 @@ a:hover{
 
 .carousel-caption {
     position: absolute;
-    right: 40%;
+    right: 600px;
     top: 90px;
     left: 5%;
     z-index: 10;
