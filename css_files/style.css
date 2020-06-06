@@ -104,13 +104,15 @@ h4 {
 }
 
 .w3-bar {
-  padding: 30px 10px 30px 40px;
+  padding: 30px 0px 30px 0px;
   border: 1px;
   background-image: linear-gradient(to bottom right, rgb(4, 4, 117), rgb(150, 212, 236));
   color: rgb(255, 255, 255);
   font-family: 'Ubuntu', sans-serif;
 }
-
+.w3-bar p{
+  font-size: 20px;
+}
 .back-button {
   padding: 10px 20px;
   margin: 0.34% 2% 0.34% 0.34%;
@@ -163,14 +165,6 @@ h4 {
 
 a {
   text-decoration: none;
-}
-
-.profile {
-  font-size: 30px;
-}
-
-.links {
-  padding: 30px 10px 20px 10px;
 }
 
 .move {
