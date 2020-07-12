@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="input" id="input"></div>
+            <div class="result" id="result"></div>
+        </div>
+        <span>Calculator</span>
+        <button class="btn" id="del" onclick="clearInput();playAudio()">AC</button>
+        <button class="btn" id="(" onclick="getButton('(');playAudio()"><span>(</span></button>
+        <button class="btn" id=")" onclick="getButton(')');playAudio()"><span>)</span></button>
+        <button class="btn" id="return" onclick="returned();playAudio()"><span>&larr;</span></button>
+        <button class="btn" id="7" onclick="getButton('7');playAudio()"><span>7</span></button>
+        <button class="btn" id="8" onclick="getButton('8');playAudio()"><span>8</span></button>
+        <button class="btn" id="9" onclick="getButton('9');playAudio()"><span>9</span></button>
+        <button class="btn" id="*" onclick="getButton('*');playAudio()"><span>&times;</span></button>
+        <button class="btn" id="4" onclick="getButton('4');playAudio()"><span>4</span></button>
+        <button class="btn" id="5" onclick="getButton('5');playAudio()"><span>5</span></button>
+        <button class="btn" id="6" onclick="getButton('6');playAudio()"><span>6</span></button>
+        <button class="btn" id="/" onclick="getButton('/');playAudio()"><span>&divide;</span></button>
+        <button class="btn" id="1" onclick="getButton('1');playAudio()"><span>1</span></button>
+        <button class="btn" id="2" onclick="getButton('2');playAudio()"><span>2</span></button>
+        <button class="btn" id="3" onclick="getButton('3');playAudio()"><span>3</span></button>
+        <button class="btn" id="-" onclick="getButton('-');playAudio()"><span>&minus;</span></button>
+        <button class="btn" id="0" onclick="getButton('0');playAudio()"><span>0</span></button>
+        <button class="btn" id="." onclick="getButton('.');playAudio()"><span>.</span></button>
+        <button class="btn" id="=" onclick="playAudio();getResult();"><span>&equals;</span></button>
+        <button class="btn" id="+" onclick="getButton('+');playAudio()"><span>&plus;</span></button>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
