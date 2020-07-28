@@ -1,0 +1,129 @@
+body {
+    background-color: #333333 !important;
+}
+
+h2{
+    display: inline-block;
+    width: 100px;
+}
+
+.back-button {
+    padding: 6px 20px;
+    color: rgb(37, 24, 119);
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.back-button:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.readRowsChild{
+    display: block;
+    padding: 5px !important;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    line-height: 60px;
+    border-radius: 5px;
+    width:60%;
+    margin: auto;
+    border-bottom: dotted 1px #444;
+}
+
+.readRowsChild:nth-child(even){
+   background-color: #272727; 
+}
+
+.time{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+}
+
+.funcBtn{
+    letter-spacing: 5px !important;
+    width: 10% !important;              
+    background-color: #333333 !important;     
+    color: #4a74ff !important;
+    border: 2px solid #24005e !important;    
+    display: block;
+}
+
+.funcBtn:focus { outline: none; } 
+
+.dig{
+    color: #3866ff !important;        
+}
+
+.secondDiv {
+    background-color: #525e74 !important;
+    width: 23% !important;
+    margin-left: 37% !important;
+    padding: 5px !important;
+    border-radius: 5px;
+    margin-top: 5px !important;
+}
+
+.jumbotron {
+    background-color: #333333 !important;
+    
+}
+
+.navbar {
+    background-color: #272727 !important;
+}
+
+.colon {
+    animation: blinker 0.6s linear infinite;
+    /* color: #1c87c9; */
+}
+
+#readRows{
+    height:350px;
+    overflow-y: auto;
+    width:50%;
+    margin: auto;
+}
+
+@keyframes blinker {
+    0%{
+      opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+  }
+  .blink-one {
+    opacity: 1;
+    animation: blinker-one 0.7s alternate infinite;
+  }
+  @keyframes blinker-one {
+    0% {
+      opacity: 0;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .funcBtn{
+        letter-spacing: 5px !important;
+        width: 38% !important;              
+        background-color: #333333 !important;     
+        /* color: #003cff !important;
+        border: 1px solid #003cff !important;     */
+        display: block;
+    }
+    
+    .funcBtn:focus { outline: none; } 
+
+    .display-4{
+        font-size: 30px !important;
+        width: 30% !important;
+    }
+
+    .blink-one{
+        width: 2% !important;
+    }
+  }

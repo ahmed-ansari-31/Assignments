@@ -3,12 +3,40 @@
     padding: 0;
 }
 body{
+    background: linear-gradient(to right,#ffffffcb,#0004ff);
+}
+.navbar{
+    background: linear-gradient(to right,rgb(0, 26, 255),rgb(255, 255, 255));
+}
+.left{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    padding: 14px 20px;
+}
+@media only screen and (max-width: 800px){
+    .left{
+        font-size: 100%;
+    padding: 14px 20px;
+    }
+}
+.back-button {
+    margin: 10px;
+    padding: 12px 20px;
+    color: rgb(37, 24, 119);
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.back-button:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right,#1c4617cb,#cfffd3);
-}
-.container{
     display: block;
     width: 280px;
     height: 430px;
